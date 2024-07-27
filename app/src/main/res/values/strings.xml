@@ -11,4 +11,5 @@
     <string name="scanned_at">Scanned at:</string>
     <string name="retry_scan">Retry Scan</string>
     <string name="would_you_like_to_retry_scanning">Would you like to retry scanning?</string>
+    <string name="invalid_nid_card">Invalid NID Card</string>
 </resources>

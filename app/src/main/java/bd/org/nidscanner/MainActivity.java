@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                             OldNidDataParser parser = new OldNidDataParser(this, rawData);
                             saveCardData(parser);
                         } else {
-                            Toast.makeText(this, "Invalid NID Card", Toast.LENGTH_LONG).show();
+                            Toast.makeText(this, getString(R.string.invalid_nid_card), Toast.LENGTH_LONG).show();
                             promptRetry();
                         }
                     }
