@@ -12,4 +12,5 @@
     <string name="retry_scan">Retry Scan</string>
     <string name="would_you_like_to_retry_scanning">Would you like to retry scanning?</string>
     <string name="invalid_nid_card">Invalid NID Card</string>
+    <string name="scan_failed_please_try_again">Scan failed. Please try again.</string>
 </resources>

@@ -45,11 +45,11 @@ public class MainActivity extends AppCompatActivity {
     private final ActivityResultLauncher<ScanOptions> barcodeLauncher = registerForActivityResult(new ScanContract(),
             result -> {
                 if (result == null) {
-                    Toast.makeText(this, "Scan failed. Please try again.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, getString(R.string.scan_failed_please_try_again), Toast.LENGTH_LONG).show();
                     promptRetry();
                 } else {
                     if (result.getContents() == null) {
-                        Toast.makeText(this, "Scan failed. Please try again.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this, getString(R.string.scan_failed_please_try_again), Toast.LENGTH_LONG).show();
                         promptRetry();
                     } else {
                         String rawData = result.getContents();
