@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void promptRetry() {
         Toast.makeText(this, "Would you like to retry scanning?", Toast.LENGTH_LONG).show();
-        binding.scanBtn.setText("Retry Scan");
+        binding.scanBtn.setText(R.string.retry_scan);
         binding.scanBtn.setOnClickListener(v -> startScan());
     }
 }
