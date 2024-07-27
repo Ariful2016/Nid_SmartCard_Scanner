@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         options.setBeepEnabled(true);
         options.setBarcodeImageEnabled(false);
         options.setOrientationLocked(true);
-        options.setPrompt("Place the barcode inside the rectangle to scan");
+        options.setPrompt(getString(R.string.place_the_barcode_inside_the_rectangle_to_scan));
         barcodeLauncher.launch(options);
     }
 

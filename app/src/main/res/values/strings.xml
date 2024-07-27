@@ -13,4 +13,5 @@
     <string name="would_you_like_to_retry_scanning">Would you like to retry scanning?</string>
     <string name="invalid_nid_card">Invalid NID Card</string>
     <string name="scan_failed_please_try_again">Scan failed. Please try again.</string>
+    <string name="place_the_barcode_inside_the_rectangle_to_scan">Place the barcode inside the rectangle to scan</string>
 </resources>
